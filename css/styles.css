@@ -1,6 +1,11 @@
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
   background-color: white;
   color: #434455;
 }
@@ -67,12 +72,7 @@ img {
   margin: 0;
   padding: 24px 0;
   text-decoration: none;
-  font-style: normal;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
   color: #2e2f42;
   transition-property: color;
   transition-duration: 250ms;
@@ -85,12 +85,7 @@ img {
   margin: 0;
   padding: 24px 0;
   text-decoration: none;
-  font-style: normal;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -122,11 +117,7 @@ img {
   padding: 24px 0;
   text-decoration: none;
   font-style: normal;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
+
   color: #434455;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -168,7 +159,6 @@ img {
 
 .baner-order-button {
   display: block;
-  font-family: "Roboto", sans-serif;
   line-height: 150%;
   font-weight: 500;
   letter-spacing: 0.04em;
@@ -241,22 +231,14 @@ img {
 .advantages-list-item-title {
   margin: 0;
   margin-bottom: 8px;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .advantages-list-item-text {
   margin: 0;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #434455;
 }
 
 /*------------------------Our Team----------------------*/
@@ -278,7 +260,6 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
-  letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
   text-align: center;
@@ -310,11 +291,9 @@ img {
 .our-team-list-item-title {
   margin: 0;
   margin-bottom: 8px;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
-  letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
@@ -322,13 +301,7 @@ img {
 .our-team-list-item-text {
   margin: 0;
   margin-bottom: 8px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
   text-align: center;
-  color: #434455;
 }
 
 .our-team-icon-list {
@@ -415,11 +388,6 @@ img {
   top: 0;
   width: 100%;
   height: 100%;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
   color: #f4f4fd;
   padding: 40px 32px;
   background-color: #4d5ae5;
@@ -436,22 +404,14 @@ img {
 .portfolio-list-item-title {
   margin: 0;
   margin-bottom: 8px;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .portfolio-list-item-text {
   margin: 0;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .portfolio-title {
@@ -460,7 +420,6 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
-  letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
   text-align: center;
@@ -511,21 +470,11 @@ footer .container {
 .footer-text {
   margin: 0;
   max-width: 264px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
 
 .footer-text-social-media {
   margin: 0;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
 }
@@ -557,11 +506,7 @@ footer .container {
 .footer-form-label {
   margin: 0;
   margin-bottom: 16px;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
   color: #fff;
 }
 
@@ -578,8 +523,6 @@ footer .container {
   background-color: transparent;
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 12px;
   line-height: 200%;
   letter-spacing: 0.04em;
@@ -600,10 +543,7 @@ footer .container {
   height: 40px;
   border-radius: 4px;
   background-color: #4d5ae5;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
   transition-property: background-color;
@@ -698,11 +638,7 @@ footer .container {
 .modal-window-title {
   margin: 0;
   margin-bottom: 16px;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
@@ -714,8 +650,6 @@ footer .container {
 .modal-label {
   display: block;
   margin-bottom: 4px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 12px;
   line-height: 117%;
   letter-spacing: 0.04em;
@@ -824,10 +758,7 @@ footer .container {
   margin: 0 auto;
   min-width: 169px;
   height: 56px;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;

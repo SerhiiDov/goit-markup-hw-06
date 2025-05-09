@@ -42,7 +42,6 @@ img {
 .header-logo {
   display: block;
   padding: 16px 0;
-  margin-right: 76px;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
   font-weight: 700;
@@ -353,6 +352,10 @@ img {
     flex-wrap: wrap;
     row-gap: 72px;
     column-gap: 24px;
+  }
+
+  .advantages-list-item-title {
+    text-align: left;
   }
 
   .advantages-list-item {
@@ -681,16 +684,15 @@ img {
 /*------------------------Footer----------------------*/
 .main-footer {
   margin: 0 auto;
-  padding: 96px 16px;
   background-color: #2e2f42;
   color: #f4f4fd;
-  max-width: 768px;
 }
 
 footer .container {
   display: flex;
   margin: 0 auto;
   flex-direction: column;
+  padding: 96px 16px;
   row-gap: 72px;
   max-width: 320px;
 }
@@ -769,8 +771,8 @@ footer .container {
 .footer-input-subscribe {
   width: 288px;
   height: 40px;
-  margin-bottom: 16px;
   padding-left: 16px;
+  margin-bottom: 16px;
   border: 1px solid #ffffff;
   background-color: transparent;
   border-radius: 4px;
@@ -820,14 +822,11 @@ footer .container {
 /*------------------------Footer 768px----------------------*/
 
 @media (min-width: 768px) {
-  .main-footer {
-    padding: 96px 0;
-    max-width: 1158px;
-  }
-
   footer .container {
     max-width: 768px;
     padding-left: 108px;
+    padding-top: 96px;
+    padding-bottom: 96px;
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -851,6 +850,7 @@ footer .container {
 
   .footer-input-subscribe {
     width: 264px;
+    margin-bottom: 0;
   }
 
   .footer-form-subscribe {
@@ -861,15 +861,10 @@ footer .container {
 }
 /*------------------------Footer 1158px----------------------*/
 @media (min-width: 1158px) {
-  .main-footer {
-    max-width: 1440px;
-    padding: 100px 0;
-  }
-
   footer .container {
-    margin: 0;
+    margin: 0 auto;
+    padding: 100px 15px;
     max-width: 1158px;
-    padding-left: 156px;
     flex-wrap: nowrap;
     gap: 0;
   }
@@ -928,8 +923,8 @@ footer .container {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  min-width: 288px;
-  min-height: 623px;
+  width: 288px;
+  height: 623px;
   padding: 72px 16px 24px 16px;
   border-radius: 4px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
@@ -1115,8 +1110,9 @@ footer .container {
 /*------------------------Modal Window 768px----------------------*/
 @media (min-width: 768px) {
   .modal-window {
-    max-width: 408px;
-    max-height: 584px;
+    width: 408px;
+    height: 584px;
+    padding: 72px 24px 24px 24px;
   }
 }
 
@@ -1139,7 +1135,7 @@ footer .container {
 
 @media (min-width: 768px) {
   .modal-menu-container {
-    opacity: 0;
+    display: none;
   }
 }
 
@@ -1203,7 +1199,6 @@ footer .container {
   display: flex;
   flex-direction: column;
   row-gap: 40px;
-  margin-bottom: 168px;
 }
 
 .modal-menu-list-item .link {
@@ -1213,7 +1208,6 @@ footer .container {
   font-size: 36px;
   line-height: 111%;
   text-decoration: none;
-  font-weight: 500;
   color: #2e2f42;
   transition-property: color;
   transition-duration: 250ms;
@@ -1225,11 +1219,15 @@ footer .container {
   color: #404bbf;
 }
 
+.modal-menu-address {
+  margin-top: auto;
+  margin-bottom: 48px;
+}
+
 .modal-menu-address-list {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
-  margin-bottom: 48px;
 }
 
 .modal-menu-address-list-item .link {
